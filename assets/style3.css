@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #cce7ff, #66b3ff, #0059b3);
+    margin: 0;
+    color: #003366;
+
+    /* animasi fade saat load */
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.navbar {
+    background: #004080;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* container muncul naik sedikit */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 89, 179, 0.2);
+
+    animation: slideUp 0.8s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    margin: 0;
+    color: #004080;
+}
+
+/* foto ada efek zoom saat hover */
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #66b3ff;
+
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    margin-top: 20px;
+    color: #0059b3;
+    border-bottom: 2px solid #cce7ff;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #333;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* card ada hover naik dikit */
+.card {
+    background: #e6f2ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border-left: 5px solid #3399ff;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #cce7ff;
+    transform: translateY(-5px);
+}
