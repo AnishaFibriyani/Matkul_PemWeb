@@ -23,14 +23,14 @@
             <td>Rizky</td>
             <td>Jl. Merdeka No. 123</td>
             <td>20</td>
-            <td><img src="foto/rizky.jpg" alt="Foto Rizky" width="100">
+            <td><img src="../assets/foto/rizky.jpg" alt="Foto Rizky" width="100">
         </tr>    
         <tr>
             <td>2</td>
             <td>Siti</td>
             <td>Jl. Sudirman No. 456</td>
             <td>22</td>
-            <td><img src="foto/siti.jpg" alt="Foto Siti" width="100"></td>
+            <td><img src="../assets/foto/siti.jpg" alt="Foto Siti" width="100"></td>
         </tr>  
 
    <table border="2" style="margin-top: 50px;">
@@ -44,7 +44,7 @@
         <tr>
             <td rowspan="3">1</td>
             <td rowspan="3">Apple</td>
-            <td rowspan="3"><img src="foto/IP16.jpg" alt="Foto Siti" width="100"></td>
+            <td rowspan="3"><img src="../assets/foto/IP16.jpg" alt="Foto IP16" width="100"></td>
             <td>iphone 16 Pro Max</td>
             <tr>
             <td>Dengan desain titanium yang memukau. Kontrol Kamera. Dolby vision 4K 120 fps. Dan chip A18 Pro.</td>
@@ -56,7 +56,7 @@
         <tr>
             <td rowspan="3">2</td>
             <td rowspan="3">Samsung</td>
-            <td rowspan="3"><img src="foto/samsung24ultra.jpg" alt="Foto Siti" width="100"></td>
+            <td rowspan="3"><img src="../assets/foto/samsung24ultra.jpg" alt="Foto samsung 24 ultra" width="100"></td>
             <td>Samsung Galaxy S24 Ultra</td>
             <tr>
             <td>HP premium dengan layar besar, S Pen, kamera canggih, dan performa sangat mewah</td>   
@@ -68,7 +68,7 @@
         <tr>
             <td rowspan="3">3</td>
             <td rowspan="3">Xiaomi</td>
-            <td rowspan="3"><img src="foto/redmi12.jpg" alt="Foto Siti" width="100"></td>
+            <td rowspan="3"><img src="../assets/foto/redmi12.jpg" alt="Foto redmi 12" width="100"></td>
             <td>xiaomi 12 8/256</td>
             <tr>
             <td>HPflagship dengan performa kencang, desain elegan, dan harga lebih terjangkau</td>
