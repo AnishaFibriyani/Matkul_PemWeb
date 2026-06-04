@@ -2,8 +2,6 @@
 
 $nama = "Anisha Fibriyani";
 
-$nim = "2024150073";
-
 $jurusan = "Teknik Informatika";
 
 $email = "bianshfbry@gmail.com";
